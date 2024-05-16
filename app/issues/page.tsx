@@ -5,8 +5,8 @@ import Link from "next/link";
 const IssuesPage = () => {
   return (
     <div>
-      <Button>
-        <Link href="/issue/new">New Issue</Link>
+      <Button className="p-4">
+        <Link href="/issues/new">New Issue</Link>
       </Button>
     </div>
   );
